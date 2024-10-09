@@ -24,7 +24,7 @@ interface Props {
   readonly children: ReactNode;
 }
 
-const RootLayout: React.FC<Props> = ({ children }: Props) => {
+const RootLayout: React.FC<Props> = ({ children }) => {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
