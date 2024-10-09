@@ -1,7 +1,10 @@
+import './globals.css';
 import React from 'react';
 
+import { Test } from '@/Test';
+
 const Page = (): React.ReactElement => {
-  return <div></div>;
+  return <Test />;
 };
 
 export default Page;
