@@ -6,7 +6,10 @@
   ],
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "jsSingleQuote": true
+    }],
     "max-len": "off",
     "no-unused-vars": "error",
     "no-console": "warn",
