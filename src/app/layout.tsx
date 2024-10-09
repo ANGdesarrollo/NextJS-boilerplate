@@ -26,7 +26,7 @@ interface Props {
 
 const RootLayout: React.FC<Props> = ({ children }) => {
   return (
-    <html lang="ar">
+    <html lang='en'>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
     </html>
   );
