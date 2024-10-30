@@ -1,0 +1,3 @@
+pnpm ts:check || exit 1
+pnpm format || exit 1
+pnpm lint-staged || exit 1
